@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  font-size: 17px;
+  font-family: sans-serif;
+  color:black;
+}
+.conteiner{
+  padding:10px;
+  display: grid;
+  grid-template-columns:repeat(auto-fit ,minmax(100px ,1fr));
+  grid-template-rows: auto 300px; 
+  grid-auto-rows:auto;
+  gap: 10px;
+}
+.item{
+  background-color:#e7e7e7;
+  border:5px solid darkorange;
+  padding:10px;
+}
